@@ -3,25 +3,25 @@ import React from "react";
 function Resume() {
   return (
     <div>
-      <div id="stripes" class="stripes"></div>
+      <div id="stripes" className="stripes"></div>
       <div style={{ marginLeft: 70, marginRight: 70, marginBottom: 50 }}>
         <div className="Resumetop my-3">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-md-2">
+          <div className="container text-center">
+            <div className="row">
+              <div className="col-md-2">
                 <h1 className="fs-1" style={{ letterSpacing: "5px" }}>
                   NAME
                 </h1>
               </div>
             </div>
-            <div class="row mb-1">
-              <div class="col-md-4 offset-md-8">
+            <div className="row mb-1">
+              <div className="col-md-4 offset-md-8">
                 <h1 className="fs-3" style={{ letterSpacing: "5px" }}>TITLE</h1>{" "}
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div
-                class="col-md-8 offset-md-2 border-3 border-bottom border-dark mb-3"
+                className="col-md-8 offset-md-2 border-3 border-bottom border-dark mb-3"
                 style={{}}
               ></div>
             </div>
@@ -30,107 +30,107 @@ function Resume() {
           {/* nave Bar */}
           <div className=" ml-3 mr-4">
             <div
-              class="container boxShadow  justify-content-between py-3 "
+              className="container boxShadow  justify-content-between py-3 "
               style={{ backgroundColor: "blue" }}
             >
-              <div class="container ">
-                <div class="col-md-9 offset-md-1 ">
-                  <div class="row">
-                    <div class="col">
-                      <div class="row">
+              <div className="container ">
+                <div className="col-md-9 offset-md-1 ">
+                  <div className="row">
+                    <div className="col">
+                      <div className="row">
                         <div
-                          class="col-md-1 text-center"
+                          className="col-md-1 text-center"
                           style={{
                             borderRadius: "50%",
                             backgroundColor: "white",
                           }}
                         >
                           <i
-                            class="fa-solid fa-phone"
+                            className="fa-solid fa-phone"
                             style={{ fontSize: "12px", marginLeft: -3 }}
                           >
                           
                           </i>
                         </div>
 
-                        <text className="col" style={{ color: "white" }}>
+                        <span className="col" style={{ color: "white" }}>
                           +123-456-7890
-                        </text>
+                        </span>
                       </div>
                     </div>
-                    <div class="col offset-md-3">
+                    <div className="col offset-md-3">
                       
                       <div className="row">  
                       <div 
-                          class="col-md-1 text-center"
+                          className="col-md-1 text-center"
                           style={{
                             borderRadius: "50%",
                             backgroundColor: "white",
                           }}
                         >
                           <i
-                            class="fa-solid fa-location-dot"
+                            className="fa-solid fa-location-dot"
                             style={{ fontSize: "12px", marginLeft: -3 }}
                           >
                           
                           </i>
                         </div>
 
-                        <text className="col" style={{ color: "white" }}>
+                        <span className="col" style={{ color: "white" }}>
                         123 Anywhere St.,Any City
-                        </text>
+                        </span>
                         </div>
                         
                     </div>
                   </div>
-                  <div class="row">
+                  <div className="row">
                     
-                    <div class="col">
-                    <div class="row">
+                    <div className="col">
+                    <div className="row">
                         <div
-                          class="col-md-1 text-center my-1"
+                          className="col-md-1 text-center my-1"
                           style={{
                             borderRadius: "50%",
                             backgroundColor: "white",
                           }}
                         >
                           <i
-                            class="fa-solid fa-envelope-open"
+                            className="fa-solid fa-envelope-open"
                             style={{ fontSize: "12px", marginLeft: -3 }}
                           >
                           
                           </i>
                         </div>
 
-                        <text className="col" style={{ color: "white" }}>
+                        <span className="col" style={{ color: "white" }}>
                         hello@reallygreatsite.com
-                        </text>
+                        </span>
                       </div>
                     
                     </div>
                       
                        
-                    <div class="col col offset-md-3 my-1">
+                    <div className="col col offset-md-3 my-1">
                  
                       <div className="row">  
                       <div 
-                          class="col-md-1 text-center"
+                          className="col-md-1 text-center"
                           style={{
                             borderRadius: "50%",
                             backgroundColor: "white",
                           }}
                         >
                           <i
-                            class="fa-solid fa-location-dot"
+                            className="fa-solid fa-location-dot"
                             style={{ fontSize: "12px", marginLeft: -3 }}
                           >
                           
                           </i>
                         </div>
 
-                        <text className="col" style={{ color: "white" }}>
-                       WWW.reallygreatsite.com
-                        </text>
+                        <span className="col" style={{ color: "white" }}>
+                       www.reallygreatsite.com
+                        </span>
                         </div>
                     </div>
                   </div>
@@ -141,21 +141,21 @@ function Resume() {
           </div>
           {/* contener  */}
           <div className="container mt-3">
-            <div class="row">
+            <div className="row">
               {/* left side  */}
-              <div class="col-8">
+              <div className="col-8">
                 <div>
                   {/*     About Me */}
                   <div>
                     <div className="row">
-                      <div class="col-10 my-1">
+                      <div className="col-10 my-1">
                         <h2 className="text-primary">
                           About Me
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h2>
                       </div>
-                      <div class="col-2 mt-3">
-                        <i class="fa-solid fa-user icr"></i>
+                      <div className="col-2 mt-3">
+                        <i className="fa-solid fa-user icr"></i>
                       </div>
                     </div>
                     <p>
@@ -170,25 +170,25 @@ function Resume() {
 
                   <div>
                     <div className="row">
-                      <div class="col-10">
+                      <div className="col-10">
                         <h2 className="text-primary">
                           EXPERIENCE
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h2>
                       </div>
-                      <div class="col-2 mt-3">
-                        <i class="fa-solid fa-briefcase icr1 "></i>
+                      <div className="col-2 mt-3">
+                        <i className="fa-solid fa-briefcase icr1 "></i>
                       </div>
                     </div>
 
                     <div>
                       <div className="row">
-                        <div class="col-9">
+                        <div className="col-9">
                           <strong style={{ color: "black" }}>
                             JOB TITLE HERE
                           </strong>
                         </div>
-                        <div class="col-3 text-center">
+                        <div className="col-3 text-center">
                           <div className="text-primary">2000-2000</div>
                         </div>
                       </div>
@@ -208,12 +208,12 @@ function Resume() {
 
                     <div>
                       <div className="row">
-                        <div class="col-9">
+                        <div className="col-9">
                           <strong style={{ color: "black" }}>
                             JOB TITLE HERE
                           </strong>
                         </div>
-                        <div class="col-3 text-center">
+                        <div className="col-3 text-center">
                           <div className="text-primary">2000-2000</div>
                         </div>
                       </div>
@@ -234,12 +234,12 @@ function Resume() {
 
                     <div>
                       <div className="row">
-                        <div class="col-9">
+                        <div className="col-9">
                           <strong style={{ color: "black" }}>
                             JOB TITLE HERE
                           </strong>
                         </div>
-                        <div class="col-3 text-center">
+                        <div className="col-3 text-center">
                           <div className="text-primary">2000-2000</div>
                         </div>
                       </div>
@@ -292,15 +292,15 @@ function Resume() {
 
                   <div className="my-4">
                     <div className="row my-2">
-                      <div class="col-10">
+                      <div className="col-10">
                         <h2 className="text-primary">
                           Education
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h2>
                       </div>
-                      <div class="col-2 mt-3">
+                      <div className="col-2 mt-3">
                         <i
-                          class="fa-solid fa-graduation-cap"
+                          className="fa-solid fa-graduation-cap"
                           style={{ color: "blue", height: "25px" }}
                         ></i>
                       </div>
@@ -308,12 +308,12 @@ function Resume() {
 
                     <div>
                       <div className="row">
-                        <div class="col-9">
+                        <div className="col-9">
                           <strong style={{ color: "black" }}>
                             Univeristy / College
                           </strong>
                         </div>
-                        <div class="col-3 text-center">
+                        <div className="col-3 text-center">
                           <div className="text-primary">Completed in 2016</div>
                         </div>
                       </div>
@@ -321,7 +321,7 @@ function Resume() {
                         <p>Degree Title</p>
                         <p>Relevant Modules:</p>
 
-                        <p className="my-2">
+                        <div className="my-2">
                           <ul>
                             {" "}
                             <li>
@@ -330,18 +330,18 @@ function Resume() {
                             </li>
                             <li>Praesent molestie orci ac nulla dapibus,</li>
                           </ul>
-                        </p>
+                        </div>
                       </div>
                     </div>
 
                     <div>
                       <div className="row">
-                        <div class="col-9">
+                        <div className="col-9">
                           <strong style={{ color: "black" }}>
                             Univeristy / College
                           </strong>
                         </div>
-                        <div class="col-3 text-center">
+                        <div className="col-3 text-center">
                           <div className="text-primary">Completed in 2016</div>
                         </div>
                       </div>
@@ -349,7 +349,7 @@ function Resume() {
                         <p>Degree Title</p>
                         <p>Relevant Modules:</p>
 
-                        <p className="my-2">
+                        <div className="my-2">
                           <ul>
                             {" "}
                             <li>
@@ -358,14 +358,14 @@ function Resume() {
                             </li>
                             <li>Praesent molestie orci ac nulla dapibus,</li>
                           </ul>
-                        </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div
-                class="col-1 border-3 border-start border-primary"
+                className="col-1 border-3 border-start border-primary"
                 style={{
                   marginTop: 50,
                   marginBottom: 50,
@@ -376,26 +376,26 @@ function Resume() {
                 {" "}
               </div>
               {/*  right  side */}
-              <div class="col-3">
+              <div className="col-3">
                 <div className="my-3">
                   {/* Skill */}
                   <div className="my-3"> 
                     <div className="row">
-                      <div class="col-10 my-2">
+                      <div className="col-10 my-2">
                         <h3 className="text-primary">
                           SKILL
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h3>
                       </div>
-                      <div class="col-2 mt-3 my-2">
-                    <i class="fa-solid fa-circle icr1"></i>
+                      <div className="col-2 mt-3 my-2">
+                    <i className="fa-solid fa-circle icr1"></i>
                       </div>
                     </div>
                     <div>
                       Serving Guest
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -406,9 +406,9 @@ function Resume() {
                     </div>
                     <div>
                       Serving Guest
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -419,9 +419,9 @@ function Resume() {
                     </div>
                     <div>
                       Serving Guest
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -432,9 +432,9 @@ function Resume() {
                     </div>
                     <div>
                       Serving Guest
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -447,17 +447,17 @@ function Resume() {
                   {/* Certificate */}
                   <div>
                     <div className="row">
-                      <div class="col-10">
+                      <div className="col-10">
                         <h2 className="text-primary  my-3">
                         CERTIFICATES
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h2>
                       </div>
-                      <div class="col-2 mt-3">
-                      <i class="fa-solid fa-certificate icr1"></i>
+                      <div className="col-2 mt-3">
+                      <i className="fa-solid fa-certificate icr1"></i>
                       </div>
                     </div>
-                    <p>
+                    <div>
                       <ul>
                      <li>  Lorem ipsum dolor sit amet. </li>
                      <li>consectetur adipiscing elit</li> 
@@ -467,27 +467,27 @@ function Resume() {
                   <li>fringilla et libero nec comm</li>
                       </ul>
                      
-                    </p>
+                    </div>
                   </div>
                   {/* Lang */}
                   <div className="my-4">
                     <div className="row my-4">
-                      <div class="col-10">
+                      <div className="col-10">
                         <h3 className="text-primary my-1">
                         LANGUAGES
-                          <div class=" border-2 border-bottom border-primary"></div>
+                          <div className=" border-2 border-bottom border-primary"></div>
                         </h3>
                       </div>
-                      <div class="col-2 mt-3">
-                      <i class="fa-solid fa-language icr1"></i>
+                      <div className="col-2 mt-3">
+                      <i className="fa-solid fa-language icr1"></i>
                       </div>
                     </div>
                   
                     <div>
                    English
-                      <div class="progress my-3">
+                      <div className="progress my-3">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -498,9 +498,9 @@ function Resume() {
                     </div>
                     <div className="my-3">
                     Spanish
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
@@ -511,9 +511,9 @@ function Resume() {
                     </div>
                     <div className="my-2">
                       Serving Guest
-                      <div class="progress my-2">
+                      <div className="progress my-2">
                         <div
-                          class="progress-bar"
+                          className="progress-bar"
                           role="progressbar"
                           style={{ width: "25%" }}
                           aria-valuenow="25"
